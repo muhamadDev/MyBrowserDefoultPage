@@ -59,7 +59,7 @@ cards.forEach((card)=> {
     card.addEventListener('click', ()=> {
         let url = card.dataset.url;
         console.log(url)
-        window.open(url);
+        window.open(url,"_self");
     });
 });
 
